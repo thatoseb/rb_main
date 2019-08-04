@@ -30,6 +30,16 @@ public class User implements Serializable{
     @Column(name = "gender")
     private Gender gender;
 
+    public User() {
+    }
+
+    public User(@NotNull String idnumber, @NotNull String firstName, @NotNull String lastName, Gender gender) {
+        this.idnumber = idnumber;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+    }
+
     public Long getId() {
         return id;
     }
