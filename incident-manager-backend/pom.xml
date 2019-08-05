@@ -20,6 +20,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>co.za.sbk</groupId>
+			<artifactId>incident-manager-frontend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
@@ -75,6 +80,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ngboot-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

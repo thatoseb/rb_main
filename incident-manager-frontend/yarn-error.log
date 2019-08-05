@@ -1,0 +1,108 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\dell\Downloads\cmder_mini\bin;C:\Users\dell\Downloads\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\dell\Downloads\cmder_mini\vendor\conemu-maximus5;C:\Users\dell\Downloads\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\Python38\Scripts\;C:\Python38\; C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Program Files\Apache\maven\bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Brackets\command;C:\ProgramData\Anaconda3;C:\apache\ant\bin;C:\gradle-4.7\bin;C:\Users\dell\AppData\Local\atom\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Geth;C:\Users\dell\.windows-build-tools\python27\Scripts;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\kubectl;C:\Go\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\Yarn\bin\;C:\Users\dell\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\dell\Downloads\cmder_mini\
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Work\SBK\incident-manager\incident-manager-frontend\package.json: Unexpected token / in JSON at position 376
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "material-dashboard-angular",
+    "version": "2.3.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e",
+      "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && ng serve -o"
+    },
+    "engines": {
+      "node": "10.16.0"
+  //    "npm": "3.10.9"
+    },
+    "private": true,
+    "dependencies": {
+      "@agm/core": "1.0.0-beta.6",
+      "@angular/animations": "8.0.0",
+      "@angular/cdk": "8.0.1",
+      "@angular/common": "8.0.0",
+      "@angular/compiler": "8.0.0",
+      "@angular/core": "8.0.0",
+      "@angular/forms": "8.0.0",
+      "@angular/http": "7.2.15",
+      "@angular/material": "8.0.1",
+      "@angular/platform-browser": "8.0.0",
+      "@angular/platform-browser-dynamic": "8.0.0",
+      "@angular/platform-server": "8.0.0",
+      "@angular/router": "8.0.0",
+      "ajv": "6.10.0",
+      "arrive": "2.4.1",
+      "bootstrap": "4.3.1",
+      "bootstrap-material-design": "4.1.2",
+      "bootstrap-notify": "3.1.3",
+      "chartist": "0.11.2",
+      "classlist.js": "1.1.20150312",
+      "core-js": "3.1.3",
+      "express": "4.17.1",
+      "googleapis": "40.0.0",
+      "hammerjs": "2.0.8",
+      "jquery": "3.4.1",
+      "moment": "2.24.0",
+      "perfect-scrollbar": "1.1.0",
+      "popper.js": "1.15.0",
+      "rxjs": "6.5.2",
+      "rxjs-compat": "6.5.2",
+      "web-animations-js": "2.3.1",
+      "zone.js": "0.9.1"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "0.800.2",
+      "@angular/cli": "8.0.2",
+      "@angular/compiler-cli": "8.0.0",
+      "@angular/language-service": "8.0.0",
+      "@types/bootstrap": "4.3.0",
+      "@types/chartist": "0.9.46",
+      "@types/googlemaps": "3.36.4",
+      "@types/jasmine": "3.3.13",
+      "@types/jquery": "3.3.29",
+      "@types/node": "12.0.7",
+      "codelyzer": "5.1.0",
+      "jasmine-core": "3.4.0",
+      "jasmine-spec-reporter": "4.2.1",
+      "karma": "4.1.0",
+      "karma-chrome-launcher": "2.2.0",
+      "karma-cli": "2.0.0",
+      "karma-coverage-istanbul-reporter": "2.0.5",
+      "karma-jasmine": "2.0.1",
+      "karma-jasmine-html-reporter": "1.4.2",
+      "protractor": "5.4.2",
+      "ts-node": "8.2.0",
+      "tslint": "5.17.0",
+      "typescript": "3.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -17,6 +17,7 @@
 	
 	<modules>
 		<module>incident-manager-backend</module>
+		<module>incident-manager-frontend</module>
 	</modules>
 
 	<properties>

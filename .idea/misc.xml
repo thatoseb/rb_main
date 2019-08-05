@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/incident-manager-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/pom.xml" />
       </list>
     </option>
   </component>

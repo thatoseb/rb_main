@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/incident-manager.iml" filepath="$PROJECT_DIR$/incident-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/incident-manager-backend/incident-manager-backend.iml" filepath="$PROJECT_DIR$/incident-manager-backend/incident-manager-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/incident-manager-frontend/incident-manager-frontend.iml" filepath="$PROJECT_DIR$/incident-manager-frontend/incident-manager-frontend.iml" />
     </modules>
   </component>
 </project>
