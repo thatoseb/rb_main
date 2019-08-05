@@ -25,7 +25,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/incidents")
+@RequestMapping("/api/incidents")
 public class IncidentResource {
 
     private final Logger log = LoggerFactory.getLogger(IncidentResource.class);

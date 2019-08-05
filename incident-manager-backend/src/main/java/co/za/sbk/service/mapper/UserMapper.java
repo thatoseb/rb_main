@@ -2,6 +2,7 @@ package co.za.sbk.service.mapper;
 
 import co.za.sbk.domain.User;
 import co.za.sbk.service.dto.UserDTO;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -24,8 +25,8 @@ public class UserMapper {
             .filter(Objects::nonNull)
             .map(this::userToUserDTO)
             .collect(Collectors.toList());
-    }
-
+    }    
+    
     public UserDTO userToUserDTO(User user) {
         return new UserDTO(user);
     }
@@ -46,6 +47,7 @@ public class UserMapper {
             user.setFirstName(userDTO.getFirstName());
             user.setLastName(userDTO.getLastName());
             user.setGender(userDTO.getGender());
+            user.setIdnumber(userDTO.getIdnumber());
             return user;
         }
     }
