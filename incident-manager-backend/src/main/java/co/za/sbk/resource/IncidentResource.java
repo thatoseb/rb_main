@@ -1,5 +1,6 @@
 package co.za.sbk.resource;
 
+import co.za.sbk.domain.enumeration.IncidentStatus;
 import co.za.sbk.resource.errors.BadRequestAlertException;
 import co.za.sbk.resource.utils.HeaderUtil;
 import co.za.sbk.resource.utils.PaginationUtil;
@@ -20,6 +21,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import javax.validation.Valid;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
@@ -50,6 +52,12 @@ public class IncidentResource {
         if (Objects.isNull(incidentDTO.getIncidentTypesId())) {
             throw new BadRequestAlertException("Invalid association value provided", ENTITY_NAME, "null");
         }
+        if (incidentDTO.getStartDate() == null) {
+            incidentDTO.setStartDate(ZonedDateTime.now());
+        }
+        
+        incidentDTO.setIncidentStatus(IncidentStatus.OPEN);
+        
         IncidentDTO result = incidentService.save(incidentDTO);
         return ResponseEntity.created(new URI("/api/incidents/" + result.getId()))
                 .headers(HeaderUtil.createEntityCreationAlert(applicationName, false, ENTITY_NAME, result.getId().toString()))
