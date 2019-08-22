@@ -3,13 +3,14 @@ package co.za.sbk.service.mapper;
 import co.za.sbk.domain.Incident;
 import co.za.sbk.service.dto.IncidentDTO;
 import org.mapstruct.*;
+import org.mapstruct.factory.Mappers;
 
 /**
  * Mapper for the entity {@link Incident} and its DTO {@link IncidentDTO}.
  */
 @Mapper(componentModel = "spring", uses = {OfficerMapper.class, SuspectMapper.class, UserMapper.class, IncidentTypesMapper.class})
 public interface IncidentMapper extends EntityMapper<IncidentDTO, Incident> {
-
+    
     @Mapping(source = "user.id", target = "userId")
     @Mapping(source = "incidentTypes.id", target = "incidentTypesId")
     @Mapping(source = "incidentTypes.type", target = "incidentTypesType")

@@ -1,6 +1,7 @@
 package co.za.sbk.service.impl;
 
 import co.za.sbk.domain.Incident;
+import co.za.sbk.domain.IncidentTypes;
 import co.za.sbk.repository.IncidentRepository;
 import co.za.sbk.repository.IncidentTypesRepository;
 import co.za.sbk.service.IncidentService;
@@ -38,7 +39,9 @@ public class IncidentServiceImpl implements IncidentService {
         log.debug("Request to save Incident : {}", incidentDTO);
         Incident incident = incidentMapper.toEntity(incidentDTO);
         Long incidentTypesId = incidentDTO.getIncidentTypesId();
-        incidentTypesRepository.findById(incidentTypesId).ifPresent(incident::incidentTypes);
+//        incidentTypesRepository.findById(incidentTypesId).ifPresent(incident::incidentTypes);
+        Optional<IncidentTypes> incidentTypes = incidentTypesRepository.findById(incidentTypesId);
+        incident.setIncidentTypes(incidentTypes.get());
         incident = incidentRepository.save(incident);
         return incidentMapper.toDto(incident);
     }

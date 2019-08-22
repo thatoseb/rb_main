@@ -22,6 +22,8 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { UserComponent } from './user/user.component';
+import { IncidentComponent } from './incident/incident.component';
 
 @NgModule({
   imports: [
