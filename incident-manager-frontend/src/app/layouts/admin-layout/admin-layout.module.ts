@@ -21,6 +21,7 @@ import {
   MatSelectModule
 } from '@angular/material';
 import { UserComponent } from '../../user/user.component';
+import { IncidentComponent } from '../../incident/incident.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -44,6 +45,7 @@ import { UserComponent } from '../../user/user.component';
     NotificationsComponent,
     UpgradeComponent,
     UserComponent,
+      IncidentComponent
   ]
 })
 

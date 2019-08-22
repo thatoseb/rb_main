@@ -1,3 +1,44 @@
-<p>
-  incident works!
-</p>
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title">Incident</h4>
+                        <p class="card-category">Capture a new incident</p>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <mat-form-field class="example-full-width">
+                                        <textarea matInput placeholder="Location of Incident"></textarea>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <mat-form-field class="example-full-width">
+                                        <textarea matInput placeholder="Description of Incident"></textarea>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <mat-form-field>
+                                        <mat-label>Incident Types</mat-label>
+                                        <mat-select>
+                                            <mat-option *ngFor="let incidentType of incidentTypes" [value]="incidentType.id">
+                                                {{incidentType.type}}
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

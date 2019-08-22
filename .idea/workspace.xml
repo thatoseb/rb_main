@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f73022-87e4-4874-bb89-f15b18384feb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-backend/pom.xml" afterPath="$PROJECT_DIR$/incident-manager-backend/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/impl/IncidentServiceImpl.java" afterPath="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/impl/IncidentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/mapper/IncidentMapper.java" afterPath="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/mapper/IncidentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/incidentmanagerbackend/IncidentManagerBackendApplicationTests.java" afterPath="$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/incidentmanagerbackend/IncidentManagerBackendApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/app.module.ts" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/app.routing.ts" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/app.routing.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.html" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.ts" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.html" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.ts" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.module.ts" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.routing.ts" afterPath="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.routing.ts" />
     </list>
@@ -28,43 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IncidentServiceImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/service/impl/IncidentServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#3415:4276" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncidentResourceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/resource/IncidentResourceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3002">
-              <caret line="183" column="19" lean-forward="false" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncidentResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/resource/IncidentResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="93" column="34" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,14 +42,17 @@
       <find>dist</find>
       <find>2.3</find>
       <find>dashboard</find>
-      <find>user-profile</find>
       <find>MatForm</find>
-      <find>UserProfileComponent</find>
       <find>org.mo</find>
       <find>incidentTypes</find>
+      <find>user-profile</find>
+      <find>UserProfileComponent</find>
+      <find>CREATIVE</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Work\SBK\incident-manager\incident-manager-frontend\src\app</dir>
+      <dir>C:\Work\SBK\incident-manager\incident-manager-frontend\src</dir>
+      <dir>C:\Work\SBK\incident-manager\incident-manager-frontend</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -105,11 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/dto/OfficerDTO.java" />
-        <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/dto/IncidentTypesDTO.java" />
-        <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/dto/SuspectDTO.java" />
-        <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/dto/IncidentDTO.java" />
-        <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/IncidentService.java" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/mapper/IncidentTypesMapper.java" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/dto/UserDTO.java" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/IncidentServiceImpl.java" />
@@ -141,10 +97,7 @@
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/resource/UserResource.java" />
         <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.routing.ts" />
-        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.module.ts" />
         <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.ts" />
         <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/user/user.component.html" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/security/TestList.java" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/incidentmanagerbackend/IncidentManagerBackendApplicationTests.java" />
@@ -156,6 +109,14 @@
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/bootstrap/DevBootstrap.java" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/resource/IncidentResource.java" />
         <option value="$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/resource/IncidentResourceTest.java" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/user-profile/user-profile.component.html" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.routing.ts" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.module.ts" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.ts" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/shared/model/incident-types.model.ts" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.ts" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.html" />
+        <option value="$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.html" />
       </list>
     </option>
   </component>
@@ -208,8 +169,10 @@
     <handled-path value="$PROJECT_DIR$/incident-manager-frontend/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1689" />
+    <option name="y" value="21" />
     <option name="width" value="1698" />
-    <option name="height" value="1020" />
+    <option name="height" value="1068" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -237,140 +200,45 @@
             <path>
               <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="incident-manager-frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="incident-manager-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="incident-manager-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="incident-manager-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="incident-manager-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="sidebar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="incident-manager-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="za" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="za" type="462c0819:PsiDirectoryNode" />
-              <item name="sbk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="za" type="462c0819:PsiDirectoryNode" />
-              <item name="sbk" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="za" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="za" type="462c0819:PsiDirectoryNode" />
-              <item name="sbk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="za" type="462c0819:PsiDirectoryNode" />
-              <item name="sbk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="incident-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="incident-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="incident-manager-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="co" type="462c0819:PsiDirectoryNode" />
-              <item name="za" type="462c0819:PsiDirectoryNode" />
-              <item name="sbk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,6 +276,9 @@
       <recent name="co.za.sbk.service.impl" />
       <recent name="co.za.sbk" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\SBK\incident-manager\incident-manager-frontend\src\app" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.za.sbk.service.impl" />
       <recent name="co.za.sbk.repository" />
@@ -437,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IncidentResourceTest.testDeleteIncident">
+  <component name="RunManager" selected="Maven.incident-manager-backend [spring-boot:run]">
     <configuration name="IncidentManagerBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.za.sbk.IncidentManagerBackendApplication" />
@@ -709,7 +580,7 @@
       <workItem from="1565864524438" duration="7527000" />
       <workItem from="1565878844125" duration="7161000" />
       <workItem from="1566335038999" duration="2014000" />
-      <workItem from="1566418911357" duration="9437000" />
+      <workItem from="1566418911357" duration="14149000" />
     </task>
     <servers />
   </component>
@@ -746,16 +617,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70854000" />
+    <option name="totallyTimeSpent" value="75566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-1689" y="21" width="1698" height="1068" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33682984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.336758" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -771,9 +642,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.509324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="-1680" y="57" width="1680" height="1023" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39140812" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21911922" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25154132" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -781,7 +653,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -844,12 +715,6 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/resource/IncidentResource.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/resource/utils/PaginationUtil.java</url>
           <line>17</line>
           <properties />
@@ -865,41 +730,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/resource/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/dashboard/dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2537">
@@ -935,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="63" column="55" lean-forward="false" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/user-profile/user-profile.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -970,24 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/user-profile/user-profile.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1005,24 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/user/user.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1180,30 +975,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/dto/IncidentDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/TestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="101" column="50" lean-forward="false" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="50" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/service/impl/IncidentServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#3415:4276" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,11 +1017,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/resource/IncidentResourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="183" column="19" lean-forward="false" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="19" />
+        <state relative-caret-position="146">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/test/java/co/za/sbk/service/impl/IncidentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#3415:4276" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/user/user.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="57" column="61" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/components/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/layouts/admin-layout/admin-layout.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/user-profile/user-profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-backend/src/main/java/co/za/sbk/service/dto/IncidentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/shared/model/incident-types.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/incident/incident.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incident-manager-frontend/src/app/components/sidebar/sidebar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

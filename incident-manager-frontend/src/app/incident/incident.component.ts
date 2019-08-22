@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IIncidentTypes, IncidentTypes } from '../shared/model/incident-types.model';
 
 @Component({
   selector: 'app-incident',
@@ -7,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IncidentComponent implements OnInit {
 
+  incidentTypes : IIncidentTypes[] = [
+      new IncidentTypes(1, "Crime"),
+      new IncidentTypes(2, "Theft")
+  ];
   constructor() { }
 
   ngOnInit() {
