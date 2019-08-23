@@ -24,6 +24,7 @@ import {
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { UserComponent } from './user/user.component';
 import { IncidentComponent } from './incident/incident.component';
+import { IncidentTypesService } from './shared/services/incident-types/incident-types.service';
 
 @NgModule({
   imports: [
@@ -43,7 +44,9 @@ import { IncidentComponent } from './incident/incident.component';
     AdminLayoutComponent,
 
   ],
-  providers: [],
+  providers: [
+      IncidentTypesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

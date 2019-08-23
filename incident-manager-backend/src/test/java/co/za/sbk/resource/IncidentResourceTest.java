@@ -127,6 +127,8 @@ class IncidentResourceTest {
         
         given(service.save(any())).willReturn(savedDTO);
         
+        incidentDTO.setId(null);
+        
         mvc.perform(post(BASE_API)
             .contentType(TestUtil.APPLICATION_JSON_UTF8)
             .content(TestUtil.convertObjectToJsonBytes(incidentDTO)))
